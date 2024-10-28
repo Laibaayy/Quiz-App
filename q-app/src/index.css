@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(54, 31, 80);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dotted-heading {
+  font-size: 50px;
+
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 4px;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  text-decoration: dotted;
+  color: transparent;
+  text-shadow:
+    1px 1px 0px black;
+  margin-top: 10px;
+
+}
+
+.question {
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.options {
+  cursor: pointer;
+  width: 24rem;
+  height: 4rem;
+  font-size: 19px;
+  border-radius: 16px;
+  text-align: start;
+  padding-left: 18px;
+  display: block;
+  margin-left: 29rem;
+  margin-top: 5px;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+  font-weight: 600;
+}
+
+.wrong {
+  background-color: red;
+  color: white;
+  font-weight: 600;
+}
+
+.starting {
+  color: white;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  letter-spacing: 2px;
+
+}
+
+.startbtn {
+  width: 12rem;
+  padding: 11px;
+  border-radius: 32px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.answer {
+  border: 5px solid black;
+}
+
+.progress {
+  width: 24rem;
+  height: 20px;
+}
+
+.marksprogress {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 21rem;
+  margin-left: 30rem;
+}
+
+.nextbtn {
+  width: 6rem;
+  padding: 10px;
+  border-radius: 27px;
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 11rem;
+  margin-top: 11px;
+}
+
+.finish {
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 34px;
+  padding: 16px;
+  font-size: 20px;
+
+  letter-spacing: 3px;
+}
+
+.loader {
+  color: white;
+  font-size: 20px;
+}
+
+.highest {
+  margin-top: 3rem;
+  font-size: 19px;
+}
+
+.restartbtn {
+  cursor: pointer;
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 26px;
+  width: 9rem;
+}
+
+.timer {
+
+  color: white;
+  width: 62rem;
+  font-size: 18px;
+  margin-top: 7px;
+}
